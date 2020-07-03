@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy project</title>
+    <link rel="stylesheet" href="./assert/css/main.css">
+</head>
+<body>
+
+<div class="container">
+
+    <main class="comments legpad">
+
+         <!-- comment goes here -->
+        <div class="comment legpad">
+                <div class="avater">
+                    <img src="./assert/img/man-avatar.jpg" alt="" class="user-pic">
+                    <p class="name">smith</p>
+                </div>
+
+                <div class="text">
+                    <p class="comment_text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, ad molestias? 
+                        Accusantium expedicri magnam debitis qui provident dolorem nam.</p>
+                        <div class="replay-box">
+                            <span class="replay">Replay</span>
+                            <span class="date">23 Dec 2022</span>
+                            <span class="time">12:00pm</span>
+                        </div>
+                </div>
+       </div>
+    
+    </main>
+
+
+
+    <div class="comment__box">
+        <form action="" class="form">
+            <span class="err_2">Write comment here</span>
+            <textarea name="comment" id="comment_box" class="border_red"></textarea>
+            <input type="submit"  name="submit-comment" class="submit" value="Comment">
+            <div class="name-box">
+                <label>Name*</label>
+                <input type="text" name="name" placeholder="5 character long" id="name_field"></br>
+                <span class="err">Please Enter Name</span>
+            </div>
+        </form>
+    </div>
+ 
+</div>
+
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
